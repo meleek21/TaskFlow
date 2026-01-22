@@ -1,0 +1,23 @@
+# .env
+*.env
+
+# Local Storage
+src/TaskFlow.Api/wwwroot/pdfs/*.pdf
+!src/TaskFlow.Api/wwwroot/pdfs/.gitkeep
+
+# Build results
+bin/
+obj/
+
+# User settings
+*.user
+*.suo
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
